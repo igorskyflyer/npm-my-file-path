@@ -31,7 +31,7 @@
 Install it by executing:
 
 ```shell
-npm i "@igor.dvlpr/$1"
+npm i "@igor.dvlpr/my-file-path"
 ```
 
 <br>
