@@ -1,6 +1,6 @@
-# $1
-$2
+# My file path
 
+🌟 An npm module that strongly types file paths! 🥊
 
 <br>
 <br>
@@ -42,7 +42,7 @@ npm i "@igor.dvlpr/$1"
 
 ## 🪪 License
 
-Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/$3/blob/main/LICENSE).
+Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/npm-my-file-path/blob/main/LICENSE).
 
 ---
 
@@ -50,20 +50,20 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 []()
 
-> __
+> \_\_
 
 []()
 
-> __
+> \_\_
 
 []()
 
-> __
+> \_\_
 
 []()
 
-> __
+> \_\_
 
 []()
 
-> __
+> \_\_
