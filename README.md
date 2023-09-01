@@ -64,6 +64,6 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 > _🧠 Zep is a zero-dependency, efficient debounce module. ⏰_
 
-[]()
+[Odin](https://www.npmjs.com/package/@igor.dvlpr/odin)
 
-> \_\_
+> _🔱 Odin is an Object wrapper that allows you to create objects and set their attributes - all at once! 🔺_
