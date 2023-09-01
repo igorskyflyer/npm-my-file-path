@@ -1,18 +1,11 @@
 ## 📒 Changelog
 
-### of [@igor.dvlpr/$1](https://github.com/igorskyflyer/$3)
+### of [@igor.dvlpr/my-file-path](https://github.com/igorskyflyer/npm-my-file-path)
 
 <br>
 
-## v
+## v1.0.0
 
-<p align="right"><em>--2023</em></p>
-
-- 
-
-<br>
-<br>
-
-## v1.0.0 - 
+<p align="right"><em>02-Sep-2023</em></p>
 
 - **🚀 launch**: initial release 🎉
