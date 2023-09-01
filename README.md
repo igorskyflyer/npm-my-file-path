@@ -48,9 +48,9 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 ## 🧬 Related
 
-[]()
+[uPath](https://www.npmjs.com/package/@igor.dvlpr/upath)
 
-> \_\_
+> _🎍 Provides a universal way of formatting file-paths in Unix-like and Windows operating systems as an alternative to the built-in path.normalize(). 🧬_
 
 []()
 
