@@ -56,9 +56,9 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 > _🧲 Provides ways of properly checking if a path exists inside a given array of files/directories both on Windows and UNIX-like operating systems. 🗺_
 
-[]()
+[valid-path](https://www.npmjs.com/package/@igor.dvlpr/valid-path)
 
-> \_\_
+> _🧰 Provides ways of testing whether a given value can be a valid file/directory name. 🏜_
 
 []()
 
