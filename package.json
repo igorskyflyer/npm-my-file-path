@@ -43,5 +43,8 @@
 		"@types/node": "^16.0.0",
 		"typescript": "^5.1.6",
 		"vitest": "^0.32.4"
+	},
+	"dependencies": {
+		"@igor.dvlpr/zing": "^2.0.0"
 	}
 }
