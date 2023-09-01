@@ -1,7 +1,5 @@
 import { describe, test, assert } from 'vitest'
 
-describe('🧪 $1 tests 🧪', () => {
-  test('#1 should ', () => {
-  
-  }) // #1
+describe('🧪 my-file-path tests 🧪', () => {
+  test('#1 should ', () => {}) // #1
 })
