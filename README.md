@@ -52,9 +52,9 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 > _🎍 Provides a universal way of formatting file-paths in Unix-like and Windows operating systems as an alternative to the built-in path.normalize(). 🧬_
 
-[]()
+[pathexists](https://www.npmjs.com/package/@igor.dvlpr/pathexists)
 
-> \_\_
+> _🧲 Provides ways of properly checking if a path exists inside a given array of files/directories both on Windows and UNIX-like operating systems. 🗺_
 
 []()
 
