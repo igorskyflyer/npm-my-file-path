@@ -60,9 +60,9 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 > _🧰 Provides ways of testing whether a given value can be a valid file/directory name. 🏜_
 
-[]()
+[Zep](https://www.npmjs.com/package/@igor.dvlpr/zep)
 
-> \_\_
+> _🧠 Zep is a zero-dependency, efficient debounce module. ⏰_
 
 []()
 
