@@ -1,7 +1,7 @@
 {
-	"name": "@igor.dvlpr/$1",
+	"name": "@igor.dvlpr/my-file-path",
 	"version": "1.0.0",
-	"description": "$2",
+	"description": "🌟 An npm module that strongly types file paths! 🥊",
 	"sideEffects": false,
 	"engines": {
 		"node": ">=16.0"
@@ -20,10 +20,15 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/igorskyflyer/$3.git"
+		"url": "git+https://github.com/igorskyflyer/npm-my-file-path.git"
 	},
 	"keywords": [
-		$4,
+		"file",
+		"filepath",
+		"files",
+		"io",
+		"path",
+		"typed",
 		"igorskyflyer",
 		"igor.dvlpr"
 	],
@@ -31,9 +36,9 @@
 	"license": "MIT",
 	"funding": "https://ko-fi.com/igorskyflyer",
 	"bugs": {
-		"url": "https://github.com/igorskyflyer/$3/issues"
+		"url": "https://github.com/igorskyflyer/npm-my-file-path/issues"
 	},
-	"homepage": "https://github.com/igorskyflyer/$3#readme",
+	"homepage": "https://github.com/igorskyflyer/npm-my-file-path#readme",
 	"devDependencies": {
 		"@types/node": "^16.0.0",
 		"typescript": "^5.1.6",
