@@ -56,7 +56,7 @@ export function assertMyFilePath<Ext extends string>(
 }
 
 /**
- * Checks whether the provided filepath conforms with the provided file extension and returns it if true.
+ * Checks whether the provided filepath conforms with the provided file extension and returns it if true. Otherwise it returns an empty string.
  * @param filePath The filepath to check.
  * @param extension The file extension to perform the check with.
  * @returns {FilePath<Ext>}
