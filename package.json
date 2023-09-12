@@ -4,7 +4,7 @@
 	"description": "🌟 An npm module that strongly types file paths! 🥊",
 	"sideEffects": false,
 	"engines": {
-		"node": ">=16.0"
+		"node": ">=18.0"
 	},
 	"types": "./dist/index.d.mts",
 	"main": "./dist/index.mjs",
