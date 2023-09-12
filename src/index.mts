@@ -29,21 +29,21 @@ export function isMyFilePath<Ext extends string>(
  * @param extension The file extension to perform the check with.
  * @param errorMessage The error message to throw.
  * @throws {Error}
- * @returns {FilePath<Ext>}
+ * @returns {void}
  */
 export function assertMyFilePath<Ext extends string>(
   filePath: string,
   extension: Ext,
   errorMessage?: string
-): FilePath<Ext> {
+): void {
   if (typeof filePath !== 'string' || typeof extension !== 'string') {
-    return '' as FilePath<Ext>
+    return
   }
 
   const normalizedExtension: string = extension.toLowerCase()
 
   if (filePath.endsWith(`.${normalizedExtension}`)) {
-    return filePath as FilePath<Ext>
+    return
   }
 
   if (typeof errorMessage === 'string') {
@@ -53,4 +53,21 @@ export function assertMyFilePath<Ext extends string>(
       `The provided file does not match the required extension: ".${normalizedExtension}"`
     )
   }
+}
+
+/**
+ * Checks whether the provided filepath conforms with the provided file extension and returns it if true.
+ * @param filePath The filepath to check.
+ * @param extension The file extension to perform the check with.
+ * @returns {FilePath<Ext>}
+ */
+export function createMyFilePath<Ext extends string>(
+  filePath: string,
+  extension: Ext
+): FilePath<Ext> {
+  if (!isMyFilePath(filePath, extension)) {
+    return '' as FilePath<Ext>
+  }
+
+  return filePath as FilePath<Ext>
 }
