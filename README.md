@@ -86,7 +86,7 @@ function createMyFilePath<Ext extends string>(
 ): FilePath<Ext>
 ```
 
-> Checks whether the provided filepath conforms with the provided file extension and returns it if true.
+> Checks whether the provided filepath conforms with the provided file extension and returns it if true. Otherwise it returns an empty string.
 
 <br>
 
