@@ -38,7 +38,32 @@ npm i "@igor.dvlpr/my-file-path"
 
 ## 🤹🏼 API
 
-The module exposes 3 generic functions:
+The module exposes a generic type and 3 generic functions.
+
+### Type
+
+```ts
+type FilePath<ext extends string>
+```
+
+<br>
+
+Use this type for compile-time safety.
+
+<br>
+
+`index.ts`
+
+```ts
+type JsonFile = FilePath<'json'>
+
+const filePathJson: JsonFile = 'abc.json' // works in the IDE
+const filePathTxt: JsonFile = 'abc.txt' // will not work in the IDE
+```
+
+<br>
+
+### Functions
 
 - [`isMyFilePath()`](#ismyfilepath)
 - [`createMyFilePath()`](#createmyfilepath)
