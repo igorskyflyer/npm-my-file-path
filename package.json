@@ -1,6 +1,6 @@
 {
 	"name": "@igor.dvlpr/my-file-path",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "🌟 An npm module that strongly types file paths! 🥊",
 	"sideEffects": false,
 	"engines": {
