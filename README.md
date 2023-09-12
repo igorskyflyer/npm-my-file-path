@@ -38,7 +38,106 @@ npm i "@igor.dvlpr/my-file-path"
 
 ## 🤹🏼 API
 
----
+The module exposes 3 generic functions:
+
+- [`isMyFilePath()`](#ismyfilepath)
+- [`createMyFilePath()`](#createmyfilepath)
+- [`assertMyFilePath`](#assertmyfilepath)
+
+<br>
+
+#### isMyFilePath
+
+```ts
+function isMyFilePath<Ext extends string>(
+  filePath: string,
+  extension: Ext
+): boolean
+```
+
+> Checks whether the provided filepath conforms with the provided file extension.
+
+<br>
+
+**Generic parameter:**
+
+`Ext` - the file extension to use with the generic, without a leading dot.
+
+<br>
+
+**Function parameters:**
+
+`filePath` - the filepath to check.
+`extension` - the file extension to perform the check with.
+
+<br>
+
+Will **not** `throw`.
+Returns a `boolean`.
+
+<br>
+
+#### createMyFilePath
+
+```ts
+function createMyFilePath<Ext extends string>(
+  filePath: string,
+  extension: Ext
+): FilePath<Ext>
+```
+
+> Checks whether the provided filepath conforms with the provided file extension and returns it if true.
+
+<br>
+
+**Generic parameter:**
+
+`Ext` - the file extension to use with the generic, without a leading dot.
+
+<br>
+
+**Function parameters:**
+
+`filePath` - the filepath to check.
+`extension` - the file extension to perform the check with.
+
+<br>
+
+Will **not** `throw`.
+Returns a `FilePath<Ext>`.
+
+<br>
+
+#### assertMyFilePath
+
+```ts
+function assertMyFilePath<Ext extends string>(
+  filePath: string,
+  extension: Ext,
+  errorMessage?: string
+): void
+```
+
+> Asserts whether the provided filepath conforms with the provided file extension.
+
+<br>
+
+**Generic parameter:**
+
+`Ext` - the file extension to use with the generic, without a leading dot.
+
+<br>
+
+**Function parameters:**
+
+`filePath` - the filepath to check.
+`extension` - the file extension to perform the check with.
+`errorMessage` - the error message to throw.
+
+<br>
+
+Will `throw` if the filepath doesn't conform the provided extension.
+Returns a `void`.
 
 ## 🪪 License
 
