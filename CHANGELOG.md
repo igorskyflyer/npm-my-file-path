@@ -1,19 +1,21 @@
-## 📒 Changelog
+# 📒 Changelog
 
-### of [@igor.dvlpr/my-file-path](https://github.com/igorskyflyer/npm-my-file-path)
+### of [@igorskyflyer/my-file-path](https://github.com/igorskyflyer/npm-my-file-path)
 
 <br>
 
-## v1.0.1
+## v1.0.2 (*22-Aug-2025*)
 
-<p align="right"><em>13-Sep-2023</em></p>
+- **💻 dev**: upgrade dependencies
+
+<br>
+
+## v1.0.1 (*13-Sep-2023*)
 
 - **📜 docs**: document the exported type
 
 <br>
 
-## v1.0.0
-
-<p align="right"><em>13-Sep-2023</em></p>
+## v1.0.0 (*13-Sep-2023*)
 
 - **🚀 launch**: initial release 🎉
