@@ -228,7 +228,7 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 [@igorskyflyer/my-file-path](https://www.npmjs.com/package/@igorskyflyer/my-file-path)
 
-> _🌟 An npm module that strongly types file paths! 🥊_
+> _🌟 A package that strongly types file paths! 🥊_
 
 <br>
 
