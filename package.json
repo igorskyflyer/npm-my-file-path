@@ -16,7 +16,7 @@
     "scripts": {
         "build": "tsc",
         "test": "vitest --run",
-        "pub": "pnpm test && git push --follow-tags"
+        "pub": "pnpm test && git push origin main --tags"
     },
     "keywords": [
         "file",
