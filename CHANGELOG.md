@@ -6,6 +6,7 @@
 
 ## v1.0.2 (*22-Aug-2025*)
 
+- **💻 dev**: upgrade to Node >= 22
 - **💻 dev**: upgrade dependencies
 
 <br>
