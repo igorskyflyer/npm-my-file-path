@@ -1,50 +1,55 @@
 {
-	"name": "@igor.dvlpr/my-file-path",
-	"version": "1.0.1",
-	"description": "🌟 An npm module that strongly types file paths! 🥊",
-	"sideEffects": false,
-	"engines": {
-		"node": ">=18.0"
-	},
-	"types": "./dist/index.d.mts",
-	"main": "./dist/index.mjs",
-	"module": "./dist/index.mjs",
-	"files": [
-		"dist"
-	],
-	"scripts": {
-		"build": "tsc",
-		"test": "vitest --run",
-		"debug": "vitest",
-		"pub": "npm test && npm run build && npm publish --access public"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/igorskyflyer/npm-my-file-path.git"
-	},
-	"keywords": [
-		"file",
-		"filepath",
-		"files",
-		"io",
-		"path",
-		"typed",
-		"igorskyflyer",
-		"igor.dvlpr"
-	],
-	"author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
-	"license": "MIT",
-	"funding": "https://ko-fi.com/igorskyflyer",
-	"bugs": {
-		"url": "https://github.com/igorskyflyer/npm-my-file-path/issues"
-	},
-	"homepage": "https://github.com/igorskyflyer/npm-my-file-path#readme",
-	"devDependencies": {
-		"@types/node": "^18.0.0",
-		"typescript": "^5.2.2",
-		"vitest": "^0.34.4"
-	},
-	"dependencies": {
-		"@igor.dvlpr/zing": "^2.0.0"
-	}
+    "name": "@igorskyflyer/my-file-path",
+    "version": "1.0.2",
+    "description": "🌟 A package that strongly types file paths! 🥊",
+    "sideEffects": false,
+    "engines": {
+        "node": ">=22.0"
+    },
+    "type": "module",
+    "types": "./dist/index.d.ts",
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "vitest --run",
+        "pub": "pnpm test && git push --follow-tags"
+    },
+    "keywords": [
+        "file",
+        "filepath",
+        "files",
+        "io",
+        "path",
+        "typed",
+        "igorskyflyer"
+    ],
+    "license": "MIT",
+    "author": "Igor Dimitrijević <support@igorskyflyer.me> (https://github.com/igorskyflyer)",
+    "funding": "https://ko-fi.com/igorskyflyer",
+    "homepage": "https://github.com/igorskyflyer/npm-my-file-path",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/igorskyflyer/npm-my-file-path.git"
+    },
+    "bugs": {
+        "url": "https://github.com/igorskyflyer/npm-my-file-path/issues"
+    },
+    "dependencies": {
+        "@igor.dvlpr/zing": "^2.0.1"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^2.2.0",
+        "@igor.dvlpr/biome-config-igorskyflyer": "^2.0.1",
+        "@types/node": "^22.17.2",
+        "typescript": "^5.9.2",
+        "vitest": "^3.2.4"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "packageManager": "pnpm@10.15.0"
 }
