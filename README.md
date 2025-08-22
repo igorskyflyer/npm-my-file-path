@@ -28,11 +28,11 @@
 
 ## 🤖 Features
 
-- Type‑safe file path handling via the `FilePath<ext>` template literal type
-- Extension validation with `isMyFilePath()` for case‑insensitive file path checks
-- Assertion with error handling using `assertMyFilePath()`, supporting custom error messages
-- Conditional file path creation through `createMyFilePath()`, returning a typed path or empty string
-- Customisable error formatting powered by the external [`zing`](https://www.npmjs.com/package/@igorskyflyer/zing) utility
+- 🍃 Type‑safe file path handling via the `FilePath<ext>` template literal type
+- 🚀 Extension validation with `isMyFilePath()` for case‑insensitive file path checks
+- 🛡️ Assertion with error handling using `assertMyFilePath()`, supporting custom error messages
+- 🌿 Conditional file path creation through `createMyFilePath()`, returning a typed path or empty string
+- 🎨 Customisable error formatting powered by the external [`zing`](https://www.npmjs.com/package/@igorskyflyer/zing) utility
 
 <br>
 <br>
