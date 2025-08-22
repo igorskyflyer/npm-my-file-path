@@ -2,11 +2,11 @@
 
 import { assert, describe, test } from 'vitest'
 import {
-  FilePath,
   assertMyFilePath,
   createMyFilePath,
-  isMyFilePath,
-} from '../src/index.mjs'
+  type FilePath,
+  isMyFilePath
+} from '../src/index.js'
 
 type JsonFile = FilePath<'json'>
 
