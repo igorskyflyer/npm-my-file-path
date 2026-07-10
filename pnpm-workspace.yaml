@@ -5,3 +5,6 @@ minimumReleaseAgeExclude:
   - '@igorskyflyer/tsconfig@2.0.0'
 onlyBuiltDependencies:
   - esbuild
+pnpm:
+  overrides:
+    vite: 7.3.5
