@@ -1,2 +1,7 @@
+allowBuilds:
+  esbuild: true
+minimumReleaseAgeExclude:
+  - '@igorskyflyer/biome-config@3.0.1'
+  - '@igorskyflyer/tsconfig@2.0.0'
 onlyBuiltDependencies:
   - esbuild
